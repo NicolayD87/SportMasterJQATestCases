@@ -1,0 +1,192 @@
+﻿procedure Test1;
+begin
+  //Runs the "TestEnvironment_TD32" tested application.
+  TestedApps.TestEnvironment_TD32.Run(1, true);
+  //Maximizes the 'FMain' window.
+  Aliases.TestEnvironment_TD32_.FMain.Maximize;
+  //Clicks the 'dxRibbonTab1|[0]|Форма редакторов' item of the 'dxRibbon' bar.
+  Aliases.TestEnvironment_TD32_.FMain.dxRibbon.ClickItemXY('dxRibbonTab1|[0]|Форма редакторов', 78, 13);
+  //Clicks the 'TcxCustomInnerMemo' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.mTest.mTestEdit.TcxCustomInnerMemo.Click(126, 8);
+  //Enters 'Спортмастер[Enter]тест-кейс 1' in the 'TcxCustomInnerMemo' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.mTest.mTestEdit.TcxCustomInnerMemo.Keys('Спортмастер[Enter]тест-кейс 1');
+  //Clicks the 'TcxButton' button.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton.ClickButton;
+  //Clicks the 'edTestEdit' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.edTest.edTestEdit.Click(86, 2);
+  //Enters the text 'Спортмастер' in the 'TcxCustomInnerTextEdit' text editor.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.edTest.edTestEdit.TcxCustomInnerTextEdit.SetText('Спортмастер');
+  //Clicks the 'TcxButton2' button.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton2.ClickButton;
+  //Clicks the 'TcxButton3' button.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton3.ClickButton;
+  //Sets the state of the 'cbTestEdit' check box to cbChecked.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.cbTest.cbTestEdit.ClickButton(cbChecked);
+  //Clicks the 'TcxButton3' button.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton3.ClickButton;
+  //Clicks the 'TcxCustomInnerTextEdit' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.ceTest.ceTestEdit.TcxCustomInnerTextEdit.Click(230, 1);
+  //Enters the text '300' in the 'TcxCustomInnerTextEdit' text editor.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.ceTest.ceTestEdit.TcxCustomInnerTextEdit.SetText('300');
+  //Clicks the 'TcxButton4' button.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton4.ClickButton;
+  //Clicks the 'ccbTestEdit' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.ccbTest.ccbTestEdit.Click(279, 12);
+  //Clicks the 'TcxCustomCheckComboBoxListBox' object.
+  Aliases.TestEnvironment_TD32_.TcxCheckComboBoxPopupWindow.TcxEditListBoxContainer.TcxCustomCheckComboBoxListBox.Click(218, 30);
+  //Clicks the 'sbMain' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.Click(320, 436);
+  //Clicks the 'TcxButton5' button.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton5.ClickButton;
+  //Clicks the 'TcxCustomInnerTextEdit' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.seTest.seTestEdit.TcxCustomInnerTextEdit.Click(163, 5);
+  //Enters the text '500' in the 'TcxCustomInnerTextEdit' text editor.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.seTest.seTestEdit.TcxCustomInnerTextEdit.SetText('500');
+  //Clicks the 'seTestEdit' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.seTest.seTestEdit.Click(280, 6);
+  //Clicks the 'TcxButton6' button.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton6.ClickButton;
+  //Clicks the 'deTestEdit' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.deTest.deTestEdit.Click(280, 11);
+  OCR.Recognize[Aliases.TestEnvironment_TD32_.TcxDateEditPopupWindow.TcxPopupCalendar].BlockByText['18', spNearestToCenter].Click;
+  //Clicks the 'TcxButton7' button.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton7.ClickButton;
+  //Clicks the 'peTestUp' button.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.peTest.peTestUp.ClickButton;
+  //Clicks the 'peTestUp' button.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.peTest.peTestUp.ClickButton;
+  //Clicks the 'peTestUp' button.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.peTest.peTestUp.ClickButton;
+  //Clicks the 'TcxButton8' button.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton8.ClickButton;
+  //Clicks the 'lueTestEdit' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.lueTest.lueTestEdit.Click(263, 15);
+  //Clicks the 'TcxCustomLookupDBGrid' object.
+  Aliases.TestEnvironment_TD32_.TcxComboBoxPopupWindow.TcxCustomLookupDBGrid.Click(198, 7);
+  //Clicks the 'lueTestEdit' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.lueTest.lueTestEdit.Click(282, 8);
+  //Clicks the 'lueTestEdit' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.lueTest.lueTestEdit.Click(264, 8);
+  //Clicks the 'TcxCustomLookupDBGrid' object.
+  Aliases.TestEnvironment_TD32_.TcxComboBoxPopupWindow.TcxCustomLookupDBGrid.Click(196, 39);
+  //Clicks the 'sbMain' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.Click(317, 829);
+  //Clicks the 'TcxButton9' button.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton9.ClickButton;
+  //Clicks the 'MDIClient' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.Click(144, 901);
+end;
+
+procedure Test2;
+begin
+  //Runs the "TestEnvironment_TD32" tested application.
+  TestedApps.TestEnvironment_TD32.Run(1, true);
+  //Maximizes the 'FMain' window.
+  Aliases.TestEnvironment_TD32_.FMain.Maximize;
+  //Clicks the 'dxRibbonTab1|[0]|Форма с TreeList' item of the 'dxRibbon' bar.
+  Aliases.TestEnvironment_TD32_.FMain.dxRibbon.ClickItemXY('dxRibbonTab1|[0]|Форма с TreeList', 65, 15);
+  //Collapses the 2 row of the 'wChildView[1]' tree list.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FTreeList.tlTest.wChildView[1].Collapse(2);
+  //Collapses the 1 row of the 'tlTest' tree list.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FTreeList.tlTest.Collapse(1);
+  //Clicks the 'wChildView[2]' grid cell at row 1, column 'name'.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FTreeList.tlTest.wChildView[3].wChildView[2].ClickCell(1, 'name');
+  //Drags the 'TcxCustomInnerTextEdit' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FTreeList.tlTest.TcxMaskEdit.TcxCustomInnerTextEdit.Drag(24, 10, -22, -2);
+  //Enters the text 'элемент58' in the 'TcxCustomInnerTextEdit' text editor.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FTreeList.tlTest.TcxMaskEdit.TcxCustomInnerTextEdit.SetText('элемент58');
+  //Enters '[Enter]' in the 'TcxCustomInnerTextEdit' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FTreeList.tlTest.TcxMaskEdit.TcxCustomInnerTextEdit.Keys('[Enter]');
+  //Expands the 1 row of the 'tlTest' tree list.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FTreeList.tlTest.Expand(1);
+  //Expands the 2 row of the 'wChildView[1]' tree list.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FTreeList.tlTest.wChildView[1].Expand(2);
+  //Clicks the 'wChildView[2]' grid cell at row 0, column 'name'.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FTreeList.tlTest.wChildView[1].wChildView[2].ClickCell(0, 'name');
+  //Clicks the 'TcxCustomInnerTextEdit' object with the right mouse button.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FTreeList.tlTest.TcxMaskEdit2.TcxCustomInnerTextEdit.ClickR(19, 8);
+  //Moves the mouse cursor to the menu item specified and then simulates a single click.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FTreeList.tlTest.TcxMaskEdit2.TcxCustomInnerTextEdit.PopupMenu.Click('Удалить');
+  //Enters '[Enter]' in the 'TcxCustomInnerTextEdit' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FTreeList.tlTest.TcxMaskEdit2.TcxCustomInnerTextEdit.Keys('[Enter]');
+  //Clicks the 'MDIClient' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.Click(147, 905);
+end;
+
+procedure Test3;
+begin
+  //Runs the "TestEnvironment_TD32" tested application.
+  TestedApps.TestEnvironment_TD32.Run(1, true);
+  //Maximizes the 'FMain' window.
+  Aliases.TestEnvironment_TD32_.FMain.Maximize;
+  //Clicks the 'dxRibbonTab1|[0]|Форма с PivotGrid' item of the 'dxRibbon' bar.
+  Aliases.TestEnvironment_TD32_.FMain.dxRibbon.ClickItemXY('dxRibbonTab1|[0]|Форма с PivotGrid', 75, 16);
+  //Clicks the 'pgTest' object with the right mouse button.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest.ClickR(57, 27);
+  //Moves the mouse cursor to the menu item specified and then simulates a single click.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest.PopupMenu.Click('Show Field List');
+  //Drags the 'pgTest' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest.Drag(514, 15, 1279, 768);
+  //Drags the 'pgTest' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest.Drag(605, 14, 1182, 791);
+  //Closes the 'TcxPivotGridCustomizationForm' window.
+  Aliases.TestEnvironment_TD32_.TcxPivotGridCustomizationForm.Close;
+  //Drags the 'pgTest' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest.Drag(283, 14, -274, 126);
+  //Drags the 'pgTest' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest.Drag(477, 15, -279, 114);
+  //Drags the 'pgTest' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest.Drag(480, 17, -398, -3);
+  //Drags the 'pgTest' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest.Drag(520, 13, -411, 1);
+  //Clicks the 'pgTest' object with the right mouse button.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest.ClickR(180, 31);
+  //Moves the mouse cursor to the menu item specified and then simulates a single click.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest.PopupMenu.Click('Show Field List');
+  OCR.Recognize[Aliases.TestEnvironment_TD32_.TcxPivotGridCustomizationForm.TcxFieldListListBox].BlockByText['Square_avg'].Click;
+  //Selects the 'Data Area' item of the 'TcxComboBox' combo box.
+  Aliases.TestEnvironment_TD32_.TcxPivotGridCustomizationForm.TcxGroupBox.TcxComboBox.ClickItem('Data Area');
+  //Clicks the 'TcxButton' button.
+  Aliases.TestEnvironment_TD32_.TcxPivotGridCustomizationForm.TcxGroupBox.TcxButton.ClickButton;
+  //Clicks the 'TcxFieldListListBox' object.
+  Aliases.TestEnvironment_TD32_.TcxPivotGridCustomizationForm.TcxFieldListListBox.Click(66, 7);
+  //Selects the 'Row Area' item of the 'TcxComboBox' combo box.
+  Aliases.TestEnvironment_TD32_.TcxPivotGridCustomizationForm.TcxGroupBox.TcxComboBox.ClickItem('Row Area');
+  //Clicks the 'TcxButton' button.
+  Aliases.TestEnvironment_TD32_.TcxPivotGridCustomizationForm.TcxGroupBox.TcxButton.ClickButton;
+  //Closes the 'TcxPivotGridCustomizationForm' window.
+  Aliases.TestEnvironment_TD32_.TcxPivotGridCustomizationForm.Close;
+  OCR.Recognize[Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest].BlockByText['City A Shop'].Click;
+  //Clicks the 'TcxCustomInnerCheckListBox' object.
+  Aliases.TestEnvironment_TD32_.TcxPivotGridFilterPopupWindow.TcxPivotGridFilterPopupListBox.TcxCustomInnerCheckListBox.Click(6, 4);
+  //Clicks the 'TcxCustomInnerCheckListBox' object.
+  Aliases.TestEnvironment_TD32_.TcxPivotGridFilterPopupWindow.TcxPivotGridFilterPopupListBox.TcxCustomInnerCheckListBox.Click(9, 43);
+  //Clicks the 'TcxButton' button.
+  Aliases.TestEnvironment_TD32_.TcxPivotGridFilterPopupWindow.TcxButton.ClickButton;
+  //Clicks the 'pgTest' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest.Click(10, 115);
+  //Clicks the 'pgTest' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest.Click(27, 133);
+  //Clicks the 'pgTest' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest.Click(563, 39);
+  //Clicks the 'pgTest' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest.Click(915, 113);
+  //Enters the text '300' in the 'TcxCustomInnerTextEdit' text editor.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest.TcxSpinEdit.TcxCustomInnerTextEdit.SetText('300');
+  //Enters '[Enter]' in the 'TcxCustomInnerTextEdit' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest.TcxSpinEdit.TcxCustomInnerTextEdit.Keys('[Enter]');
+  //Clicks the 'pgTest' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest.Click(995, 154);
+  //Enters the text '600' in the 'TcxCustomInnerTextEdit' text editor.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest.TcxSpinEdit2.TcxCustomInnerTextEdit.SetText('600');
+  //Enters '[Enter]' in the 'TcxCustomInnerTextEdit' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest.TcxSpinEdit2.TcxCustomInnerTextEdit.Keys('[Enter]');
+  //Clicks the 'pgTest' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest.Click(1115, 176);
+  //Enters the text '400' in the 'TcxCustomInnerTextEdit' text editor.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest.TcxSpinEdit3.TcxCustomInnerTextEdit.SetText('400');
+  //Enters '[Enter]' in the 'TcxCustomInnerTextEdit' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest.TcxSpinEdit3.TcxCustomInnerTextEdit.Keys('[Enter]');
+  //Clicks the 'MDIClient' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.Click(150, 903);
+end;
